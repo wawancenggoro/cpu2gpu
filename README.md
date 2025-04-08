@@ -19,7 +19,7 @@ In [cpu2gpu.ipynb](cpu2gpu.ipynb), we compare the speed of 3 CPU codes and 2 GPU
 * The first GPU code is a vectorized computation using CuPy
 * The second GPU code is a vectorized computation using Pytorch
 
-The results are visualized in [cpu2gpu.ipynb](cpu2gpu.ipynb).
+The results are visualized in [plot.ipynb](plot.ipynb).
 
 The first and second CPU code are exremely slow. Thus, we run them only on a small data (1/16 of the original data). Below is the speed comparison of the first CPU code (loop), the second CPU code (pandas apply), and the third CPU code (numpy) on the small data. The third CPU code is significantly faster due to the use of vectorized computation, although it is still running in CPU.
 
